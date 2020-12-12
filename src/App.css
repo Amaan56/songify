@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+nav {
+  font-family: 'Sacramento', cursive;
+  text-align: center;
+  color: var(--primary-color);
+  font-size: 2rem;
+  padding: 1rem;
+}
