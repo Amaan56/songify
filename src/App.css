@@ -7,3 +7,28 @@ nav {
   font-size: 2rem;
   padding: 1rem;
 }
+
+.genres {
+  margin: auto;
+  width: 70vw;
+}
+
+.genre-option {
+  background-color: var(--genre-option-color);
+  /* background: linear-gradient(
+    145deg,
+    var(--genre-option-color),
+    var(--secondary-color)
+  ); */
+  color: var(--primary-color);
+  cursor: pointer;
+  padding: 1rem 2rem;
+  box-shadow: 5px 5px 10px black, -5px -5px 10px var(--genre-option-color);
+  border-radius: 1rem;
+  border: none;
+  outline: none;
+}
+
+.genre-option:active {
+  box-shadow: inset 5px 5px 10px black, -5px -5px 10px var(--genre-option-color);
+}
