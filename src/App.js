@@ -37,9 +37,12 @@ function App() {
                 return (
                   <section className="song-card" key={i}>
                     <img src={genreDetails.image} alt="Song name" />
-                    <div>
+                    <div className="song-description">
                       <h3>{genreDetails.songName}</h3>
                       <h6>{genreDetails.artistName}</h6>
+                      <a href={genreDetails.songUrl} target="_blank">
+                        Play
+                      </a>
                     </div>
                   </section>
                 );

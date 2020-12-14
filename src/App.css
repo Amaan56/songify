@@ -59,6 +59,22 @@ nav {
 .song-card > img {
   height: 15vh;
   margin-right: 1rem;
+  object-fit: contain;
+}
+
+.song-description {
+  height: 15vh;
+  padding: 0.2rem;
+}
+
+.song-description > a {
+  text-decoration: none;
+  background-color: var(--primary-color);
+  color: white;
+  font-size: 1rem;
+  padding: 0.1rem 0.8rem;
+  border: 1rem;
+  border-radius: 1rem;
 }
 
 footer {
@@ -67,4 +83,50 @@ footer {
   color: var(--primary-color);
   font-size: 1.5rem;
   padding: 1rem;
+}
+
+@media only screen and (max-width: 550px) {
+  .genres {
+    width: 98vw;
+  }
+  .genre-option {
+    padding: 0.6rem 0.8rem;
+    margin: 0.5rem;
+    font-size: 0.8rem;
+  }
+
+  .song-cards {
+    width: 98vw;
+    box-shadow: 2px 2px 5px black, -2px -2px 5px var(--genre-option-color-light);
+  }
+
+  .song-card {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+  }
+
+  .song-card > img {
+    height: 10vh;
+    margin-right: 1rem;
+  }
+
+  .song-description {
+    height: 10vh;
+  }
+
+  .song-description > h3 {
+    font-size: 0.8rem;
+  }
+
+  .song-description > h6 {
+    font-size: 0.6rem;
+  }
+  .song-description > a {
+    font-size: 0.6rem;
+    padding: 0.1rem 0.5rem;
+    margin: 0.2rem;
+  }
+  footer {
+    font-size: 1rem;
+  }
 }
