@@ -48,6 +48,8 @@ function App() {
           }
         </section>
       </main>
+
+      <footer>Made with ❤️ by Amaan</footer>
     </div>
   );
 }

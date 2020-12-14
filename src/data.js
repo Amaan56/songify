@@ -74,9 +74,9 @@ const sampleData = {
       artistName: 'Eminem',
     },
     {
-      image: 'https://i.scdn.co/image/ab67616d0000b273ae7abe97f7020d657e87bbec',
-      songName: 'Kasoor',
-      artistName: 'Prateek Kuhad',
+      image: 'https://i.scdn.co/image/ab67616d00004851dee6b58d35215322626b5701',
+      songName: 'Nowhere Fast',
+      artistName: 'Eminem',
     },
   ],
   'Country Music': [
@@ -86,9 +86,9 @@ const sampleData = {
       artistName: 'Blake Shelton',
     },
     {
-      image: 'https://i.scdn.co/image/ab67616d00004851dee6b58d35215322626b5701',
-      songName: 'Nowhere Fast',
-      artistName: 'Eminem',
+      image: 'https://i.scdn.co/image/ab67616d00001e02acf99661b45380007ad598cb',
+      songName: 'Happy Anywhere',
+      artistName: 'Blake Shelton',
     },
   ],
 };
