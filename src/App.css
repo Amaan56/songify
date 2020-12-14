@@ -35,3 +35,28 @@ nav {
   box-shadow: inset 5px 5px 10px black,
     -5px -5px 10px var(--genre-option-color-light);
 }
+
+.song-cards {
+  margin: auto;
+  width: 60vw;
+}
+.song-card {
+  display: flex;
+  background-color: var(--genre-option-color);
+  color: var(--primary-color);
+  cursor: pointer;
+  padding: 1rem 2rem;
+  box-shadow: 5px 5px 10px black, -5px -5px 10px var(--genre-option-color-light);
+  border-radius: 1rem;
+  border: none;
+  outline: none;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin: 1rem;
+}
+
+.song-card > img {
+  height: 15vh;
+  margin-right: 1rem;
+}
