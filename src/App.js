@@ -1,5 +1,15 @@
 import './App.css';
 
+const sampleData = {
+  Indie: [],
+  Bollywood: [],
+  Pop: [],
+  'Hip Hop': [],
+  'Country Music': [],
+};
+
+const sampleDataKeys = Object.keys(sampleData);
+
 function App() {
   return (
     <div className="App">
@@ -8,7 +18,9 @@ function App() {
       </nav>
       <main>
         <section className="genres">
-          <button className="genre-option">Indie Pop</button>
+          {sampleDataKeys.map((option, i) => {
+            return <button className="genre-option">{option}</button>;
+          })}
         </section>
       </main>
     </div>
