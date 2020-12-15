@@ -18,6 +18,7 @@ function App() {
       </nav>
       <main>
         <section className="genres">
+          <p>Listen to my song's playlist, select the genre to get started.</p>
           {sampleDataKeys.map((option, i) => {
             return (
               <button
