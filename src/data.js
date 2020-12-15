@@ -64,7 +64,6 @@ const sampleData = {
       artistName: 'Ed Sheeran',
       songUrl: 'https://open.spotify.com/track/0tgVpDi06FyKpA1z0VMD4v',
     },
-    ,
     {
       image: 'https://i.scdn.co/image/ab67616d0000b273ba5db46f4b838ef6027e6f96',
       songName: 'Happier',
