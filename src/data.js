@@ -51,7 +51,6 @@ const sampleData = {
       songUrl: 'https://open.spotify.com/track/03VTytguq5MS6e3x03y5i1',
     },
   ],
-
   Pop: [
     {
       image: 'https://i.scdn.co/image/ab67616d0000b273ba5db46f4b838ef6027e6f96',
